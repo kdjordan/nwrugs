@@ -3,11 +3,11 @@
     id="hero"
     class="min-h-screen w-screen flex flex-col justify-center items-center"
   >
-    <h1 class="text-4xl md:text-6xl font-bold mb-4 text-white">
+    <h1 class="text-4xl md:text-6xl mb-4 text-white">
       Welcome to NW Persian Rugs
     </h1>
     <p class="text-lg md:text-2xl text-white">
-      Discover, learn, and bid on authentic Persian rugs.
+      Family owned and operated since 1970.
     </p>
   </section>
 </template>

@@ -1,0 +1,11 @@
+{
+  "plugins": {
+    "tailwindcss": {},
+    "autoprefixer": {}
+  },
+  "ignoreWarnings": [
+    {
+      "message": "/@tailwind/"
+    }
+  ]
+}
