@@ -1,13 +1,20 @@
 <template>
   <nav
+    ref="navRef"
     class="fixed w-full z-50 bg-transparent px-6 md:px-8 py-4 flex justify-between items-center"
   >
     <!-- Logo - always visible -->
-    <div class="text-3xl text-white">NW Persian Rugs</div>
+    <div
+      class="text-3xl"
+      :class="isNavPurple ? 'text-purple-600' : 'text-white'"
+    >
+      NW Persian Rugs
+    </div>
 
     <!-- Desktop Navigation - only on md+ screens -->
     <div
-      class="hidden md:flex space-x-6 ml-auto text-lg uppercase text-white font-secondary"
+      class="hidden md:flex space-x-6 ml-auto text-lg uppercase font-secondary"
+      :class="isNavPurple ? 'text-purple-600' : 'text-white'"
     >
       <a href="#hero" class="">Home</a>
       <a href="#about" class="">About</a>
@@ -18,7 +25,8 @@
     <!-- Mobile Menu Button - only on small screens -->
     <button
       @click="menuOpen = !menuOpen"
-      class="md:hidden focus:outline-none text-white"
+      class="md:hidden focus:outline-none"
+      :class="isNavPurple ? 'text-purple-600' : 'text-white'"
     >
       <svg
         class="w-8 h-8"
@@ -69,8 +77,43 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
+import { ref, onMounted, onUnmounted } from "vue";
+
 const menuOpen = ref(false);
+const isNavPurple = ref(false);
+const navRef = ref(null); // Ref for the nav element
+
+const handleScroll = () => {
+  const aboutSection = document.getElementById("about");
+  const navElement = navRef.value;
+
+  if (aboutSection && navElement) {
+    const aboutSectionTop = aboutSection.getBoundingClientRect().top;
+    const aboutSectionBottom = aboutSection.getBoundingClientRect().bottom;
+    const navHeight = navElement.offsetHeight;
+
+    // Change color if the nav is currently overlapping the about section
+    if (aboutSectionTop <= navHeight && aboutSectionBottom >= 0) {
+      isNavPurple.value = true;
+    } else {
+      isNavPurple.value = false;
+    }
+  } else {
+    // Default to not purple if elements aren't found,
+    // though this might be undesirable if it flashes during loading.
+    // Consider initial state carefully if #about might not be immediately available.
+    isNavPurple.value = false;
+  }
+};
+
+onMounted(() => {
+  window.addEventListener("scroll", handleScroll);
+  handleScroll(); // Initial check
+});
+
+onUnmounted(() => {
+  window.removeEventListener("scroll", handleScroll);
+});
 </script>
 
 <style scoped>
