@@ -6,7 +6,7 @@
     <div class="text-2xl text-white">NW persian Rugs</div>
 
     <!-- Desktop Navigation - only on md+ screens -->
-    <div class="md:flex space-x-6 ml-auto">
+    <div class="hidden md:flex space-x-6 ml-auto">
       <a href="#hero" class="text-white hover:underline">Home</a>
       <a href="#about" class="text-white hover:underline">About</a>
       <a href="#auctions" class="text-white hover:underline">Auctions</a>

@@ -1,9 +1,9 @@
+/* import base styles first */
+@import "./base.css";
+
 /* tailwind directives */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* base styles import */
-@import "./base.css";
 
 /* custom imports */

@@ -2,12 +2,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* base styles */
 @import "./base.css";
 
-html {
-    scroll-behavior: smooth;
-    /* Apply default background if needed, or keep it focused */
-    /* @apply bg-fbBlack; */
-  }
-
 /* custom imports */
+
+html {
+  scroll-behavior: smooth;
+  /* Apply default background if needed, or keep it focused */
+  /* @apply bg-fbBlack; */
+}
