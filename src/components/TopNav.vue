@@ -3,19 +3,14 @@
     class="fixed w-full z-50 bg-transparent px-6 md:px-8 py-4 flex justify-between items-center"
   >
     <!-- Logo - always visible -->
-    <div class="text-2xl text-white">NW persian Rugs</div>
+    <div class="text-2xl text-white">NW Persian Rugs</div>
 
     <!-- Desktop Navigation - only on md+ screens -->
-    <div class="hidden md:flex space-x-6 ml-auto">
+    <div class="hidden md:flex space-x-6 ml-auto text-xl uppercase">
       <a href="#hero" class="text-white hover:underline">Home</a>
       <a href="#about" class="text-white hover:underline">About</a>
       <a href="#auctions" class="text-white hover:underline">Auctions</a>
-      <router-link to="/privacy" class="text-white hover:underline"
-        >Privacy</router-link
-      >
-      <router-link to="/terms" class="text-white hover:underline"
-        >Terms</router-link
-      >
+ 
     </div>
 
     <!-- Mobile Menu Button - only on small screens -->

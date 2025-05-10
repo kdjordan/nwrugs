@@ -1,5 +1,6 @@
 <script setup>
 import TopNav from "./components/TopNav.vue";
+import TheFooter from "./components/TheFooter.vue";
 </script>
 
 <template>
@@ -9,6 +10,7 @@ import TopNav from "./components/TopNav.vue";
       <component :is="Component" />
     </router-view>
   </div>
+  <TheFooter />
 </template>
 
 <style>
