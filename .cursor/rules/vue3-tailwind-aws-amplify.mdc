@@ -1,0 +1,26 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Vue 3 + Tailwind + AWS Amplify Project Structure
+
+This project is a Vue 3 application styled with Tailwind CSS and intended for deployment using AWS Amplify.
+
+## Main Entry Points
+- The main application entry is [`src/main.js`](mdc:src/main.js).
+- The root Vue component is [`src/App.vue`](mdc:src/App.vue).
+- Static assets are located in the [`public/`](mdc:public/) directory.
+
+## Tailwind CSS Integration
+- Tailwind CSS is included as a dependency in [`package.json`](mdc:package.json).
+- The Tailwind configuration file is typically named `tailwind.config.js` in the project root. If missing, create it to customize Tailwind settings.
+- Tailwind is usually integrated via PostCSS, often configured in `postcss.config.js`.
+
+## AWS Amplify Deployment
+- This project is intended to be deployed using AWS Amplify. Amplify-specific configuration files (such as `aws-exports.js` or an `amplify/` directory) should be added after initializing Amplify in the project.
+- For deployment, connect your repository to AWS Amplify Console and follow the setup instructions.
+
+## Additional Notes
+- All dependencies are managed via [`package.json`](mdc:package.json).
+- Vite is used as the build tool, configured in [`vite.config.js`](mdc:vite.config.js).
