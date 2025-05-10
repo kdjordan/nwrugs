@@ -74,6 +74,10 @@ const menuOpen = ref(false);
 </script>
 
 <style scoped>
+a:hover {
+  color: oklch(71.4% 0.203 305.504);
+  transition: color 0.3s ease;
+}
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity 0.2s;

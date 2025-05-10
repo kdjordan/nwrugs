@@ -20,17 +20,17 @@
             All
           </button>
           <button
-            class="bg-white text-gray-700 px-4 py-2 rounded-lg  font-medium border border-gray-300 hover:bg-gray-50 uppercase"
+            class="bg-white text-gray-700 px-4 py-2 rounded-lg  font-medium border border-gray-300 hover:bg-purple-500 hover:text-white uppercase transition-colors duration-300"
           >
             Area
           </button>
           <button
-            class="bg-white text-gray-700 px-4 py-2 rounded-lg  font-medium border border-gray-300 hover:bg-gray-50 uppercase"
+            class="bg-white text-gray-700 px-4 py-2 rounded-lg  font-medium border border-gray-300 hover:bg-purple-500 hover:text-white uppercase transition-colors duration-300"
           >
             Runner
           </button>
           <button
-            class="bg-white text-gray-700 px-4 py-2 rounded-lg  font-medium border border-gray-300 hover:bg-gray-50 uppercase"
+            class="bg-white text-gray-700 px-4 py-2 rounded-lg  font-medium border border-gray-300 hover:bg-purple-500 hover:text-white uppercase transition-colors duration-300"
           >
             Specialty
           </button>
