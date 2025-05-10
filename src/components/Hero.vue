@@ -1,7 +1,7 @@
 <template>
   <section
     id="hero"
-    class="min-h-screen w-screen flex flex-col justify-center items-center tracking-wider"
+    class="w-screen flex flex-col justify-center items-center tracking-wider min-h-[750px]"
   >
     <h1 class="text-4xl md:text-6xl mb-4 text-white">
       Welcome to NW Persian Rugs
@@ -9,6 +9,9 @@
     <p class="text-lg md:text-2xl text-white">
       Family owned and operated since 1970.
     </p>
+    <button class="bg-white text-black px-4 py-2 rounded-md mt-4 tracking-wider font-bold hover:bg-gray-200 transition-colors duration-300">
+      BID NOW
+    </button>
   </section>
 </template>
 
