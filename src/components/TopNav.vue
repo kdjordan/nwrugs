@@ -40,7 +40,7 @@
     <transition name="fade">
       <div
         v-if="menuOpen"
-        class="absolute top-16 right-6 bg-white bg-opacity-95 rounded shadow-lg flex flex-col space-y-4 p-6 w-48 text-gray-800 md:hidden"
+        class="absolute top-16 right-6 bg-white bg-opacity-95 rounded shadow-lg flex flex-col space-y-4 p-6 w-48 text-gray-800 md:hidden font-secondary"
       >
         <a href="#hero" class="hover:underline" @click="menuOpen = false"
           >Home</a

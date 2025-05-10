@@ -3,7 +3,7 @@
     id="hero"
     class="w-screen flex flex-col justify-center items-center tracking-wider min-h-[750px]"
   >
-    <h1 class="text-4xl md:text-6xl mb-4 text-white">
+    <h1 class="text-3xl md:text-6xl mb-4 text-white">
       Welcome to NW Persian Rugs
     </h1>
     <p class="text-lg md:text-2xl text-white">
