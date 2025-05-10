@@ -5,28 +5,32 @@
         <h2 class="text-3xl md:text-4xl font-semibold mb-4">
           Current Auctions
         </h2>
-        <p class="max-w-2xl mx-auto text-center text-gray-700 mb-8">
+        <p
+          class="max-w-2xl mx-auto text-center text-gray-700 mb-8 text-xl font-secondary"
+        >
           Browse our latest auctions and place your bids on exquisite Persian
           rugs.
         </p>
-        <div class="flex flex-wrap gap-3 justify-center mb-8">
+        <div
+          class="flex flex-wrap gap-3 justify-center mb-8 font-secondary uppercase rounded-lg text-sm"
+        >
           <button
-            class="bg-indigo-600 text-white px-4 py-2 rounded-full text-sm font-medium"
+            class="bg-purple-500 text-white px-4 py-2 rounded-lg  font-medium uppercase"
           >
             All
           </button>
           <button
-            class="bg-white text-gray-700 px-4 py-2 rounded-full text-sm font-medium border border-gray-300 hover:bg-gray-50"
+            class="bg-white text-gray-700 px-4 py-2 rounded-lg  font-medium border border-gray-300 hover:bg-gray-50 uppercase"
           >
             Area
           </button>
           <button
-            class="bg-white text-gray-700 px-4 py-2 rounded-full text-sm font-medium border border-gray-300 hover:bg-gray-50"
+            class="bg-white text-gray-700 px-4 py-2 rounded-lg  font-medium border border-gray-300 hover:bg-gray-50 uppercase"
           >
             Runner
           </button>
           <button
-            class="bg-white text-gray-700 px-4 py-2 rounded-full text-sm font-medium border border-gray-300 hover:bg-gray-50"
+            class="bg-white text-gray-700 px-4 py-2 rounded-lg  font-medium border border-gray-300 hover:bg-gray-50 uppercase"
           >
             Specialty
           </button>

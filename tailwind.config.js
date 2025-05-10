@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         primary: ["EB Garamond", "serif"],
+        secondary: ["Montserrat", "sans-serif"],
       },
     },
   },

@@ -3,14 +3,16 @@
     class="fixed w-full z-50 bg-transparent px-6 md:px-8 py-4 flex justify-between items-center"
   >
     <!-- Logo - always visible -->
-    <div class="text-2xl text-white">NW Persian Rugs</div>
+    <div class="text-3xl text-white">NW Persian Rugs</div>
 
     <!-- Desktop Navigation - only on md+ screens -->
-    <div class="hidden md:flex space-x-6 ml-auto text-lg uppercase text-white">
+    <div
+      class="hidden md:flex space-x-6 ml-auto text-lg uppercase text-white font-secondary"
+    >
       <a href="#hero" class="">Home</a>
       <a href="#about" class="">About</a>
       <a href="#auctions" class="">Auctions</a>
- 
+      <a href="#contact" class="">Contact</a>
     </div>
 
     <!-- Mobile Menu Button - only on small screens -->

@@ -10,7 +10,7 @@
       />
       <div
         v-if="rug.featured"
-        class="absolute top-4 right-4 bg-red-500 text-white px-3 py-1 rounded-full text-sm font-medium"
+        class="absolute top-4 right-4 bg-red-500 text-white px-3 py-1 rounded-full text-xs font-secondary uppercase"
       >
         Featured
       </div>
@@ -36,7 +36,7 @@
         </div>
       </div>
       <button
-        class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-2 px-4 rounded-md transition-colors"
+        class="w-full bg-purple-500 hover:bg-purple-600 text-white font-medium py-2 px-4 rounded-md transition-colors font-secondary uppercase"
       >
         Place Bid
       </button>

@@ -9,7 +9,9 @@
     <p class="text-lg md:text-2xl text-white">
       Family owned and operated since 1970.
     </p>
-    <button class="bg-white text-black px-4 py-2 rounded-md mt-4 tracking-wider font-bold hover:bg-gray-200 transition-colors duration-300">
+    <button
+      class="bg-white text-black px-4 py-2 rounded-md mt-4 tracking-wider font-bold hover:bg-gray-200 transition-colors duration-300 font-secondary"
+    >
       BID NOW
     </button>
   </section>
