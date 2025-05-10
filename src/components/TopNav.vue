@@ -6,10 +6,10 @@
     <div class="text-2xl text-white">NW Persian Rugs</div>
 
     <!-- Desktop Navigation - only on md+ screens -->
-    <div class="hidden md:flex space-x-6 ml-auto text-xl uppercase">
-      <a href="#hero" class="text-white hover:underline">Home</a>
-      <a href="#about" class="text-white hover:underline">About</a>
-      <a href="#auctions" class="text-white hover:underline">Auctions</a>
+    <div class="hidden md:flex space-x-6 ml-auto text-lg uppercase text-white">
+      <a href="#hero" class="">Home</a>
+      <a href="#about" class="">About</a>
+      <a href="#auctions" class="">Auctions</a>
  
     </div>
 

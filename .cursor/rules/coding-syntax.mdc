@@ -75,6 +75,8 @@ You are an expert in  **Node.js**, **Vite**, **Vue 3 (Composition API)**, **Vue 
 
 Use the following format for all Git commit messages:
 
+Please use these !!!
+
 - Use **present tense** and **imperative mood**
 - Keep messages to **50 characters or less**
 - Prefix with scope tag:
