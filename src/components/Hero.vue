@@ -7,7 +7,7 @@
       Welcome to NW Persian Rugs
     </h1>
     <p class="text-lg md:text-2xl text-white">
-      Family owned and operated since 1970.
+      Family owned and operated since 1988.
     </p>
     <a href="#auctions">
       <button

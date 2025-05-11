@@ -3,6 +3,7 @@
     <Hero />
     <About />
     <Auctions />
+    <Contact />
   </div>
 </template>
 
@@ -10,4 +11,5 @@
 import Hero from "./components/Hero.vue";
 import About from "./components/About.vue";
 import Auctions from "./components/Auctions.vue";
+import Contact from "./components/Contact.vue";
 </script>

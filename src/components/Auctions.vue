@@ -5,6 +5,8 @@
         <h2 class="text-3xl md:text-4xl font-semibold mb-4">
           Current Auctions
         </h2>
+        <h2 class="text-2xl">Coming Soon !</h2>
+        <!-- temp remove
         <p
           class="max-w-2xl mx-auto text-center text-gray-700 mb-8 text-xl font-secondary"
         >
@@ -41,6 +43,7 @@
         class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"
       >
         <AuctionCard v-for="rug in rugs" :key="rug.id" :rug="rug" />
+        
       </div>
 
       <div class="mt-12 text-center">
@@ -49,6 +52,7 @@
         >
           View All Auctions
         </button>
+        -->
       </div>
     </div>
   </section>
